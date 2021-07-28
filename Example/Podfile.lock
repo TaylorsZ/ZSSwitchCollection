@@ -1,0 +1,16 @@
+PODS:
+  - ZSSwitchCollection (0.1.0)
+
+DEPENDENCIES:
+  - ZSSwitchCollection (from `../`)
+
+EXTERNAL SOURCES:
+  ZSSwitchCollection:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZSSwitchCollection: 8d236e47752a1c044d89d86b6088d897396136e5
+
+PODFILE CHECKSUM: 6104472f5fa72168ca8141d762525fea238334ed
+
+COCOAPODS: 1.10.1

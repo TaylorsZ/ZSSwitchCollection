@@ -1,0 +1,6 @@
+framework module ZSSwitchCollection {
+  umbrella header "ZSSwitchCollection-umbrella.h"
+
+  export *
+  module * { export * }
+}
