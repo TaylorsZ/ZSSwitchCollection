@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B524E971F4B7A008D852D1CAF352722 /* Pods-ZSSwitchCollection_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B8ADC1EBEA87087CC5CA8155501E1D /* Pods-ZSSwitchCollection_Tests-dummy.m */; };
-		2FAC5F0764AF39432A6DA3024F341792 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86ADC2FF39BD2129B9886199423BF6 /* ReplaceMe.swift */; };
 		345920C426B1268600C135BE /* BaseControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345920C326B1268600C135BE /* BaseControl.swift */; };
 		345920CE26B126DE00C135BE /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345920C526B126DD00C135BE /* Switcher.swift */; };
 		345920CF26B126DE00C135BE /* YapSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345920C626B126DD00C135BE /* YapSwitch.swift */; };
@@ -64,7 +63,6 @@
 		918B3C18993E29FD9AB89C58C65B1964 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		94DCB90B3EA18E3488BA5FDB4DB35F08 /* ZSSwitchCollection-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZSSwitchCollection-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC86ADC2FF39BD2129B9886199423BF6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZSSwitchCollection/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		BD1261CB3F30F119FFF06E3F8D64BD3C /* Pods-ZSSwitchCollection_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZSSwitchCollection_Tests-Info.plist"; sourceTree = "<group>"; };
 		C42B9F5784BE94CE36247E61E4487655 /* ZSSwitchCollection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZSSwitchCollection.modulemap; sourceTree = "<group>"; };
 		CAFEEEB3B3558CA6B94719FACB101329 /* ZSSwitchCollection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZSSwitchCollection-prefix.pch"; sourceTree = "<group>"; };
@@ -199,7 +197,6 @@
 				345920CC26B126DE00C135BE /* YapLiquidSwitch.swift */,
 				345920C926B126DD00C135BE /* YapSmileSwitch.swift */,
 				345920C626B126DD00C135BE /* YapSwitch.swift */,
-				BC86ADC2FF39BD2129B9886199423BF6 /* ReplaceMe.swift */,
 				345920C326B1268600C135BE /* BaseControl.swift */,
 				E1383E00B1B64345537155C9AA75B3EF /* Pod */,
 				42F4A56F005F822A8106EC68744BECB6 /* Support Files */,
@@ -317,7 +314,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FAC5F0764AF39432A6DA3024F341792 /* ReplaceMe.swift in Sources */,
 				345920D326B126DE00C135BE /* JDSwitch.swift in Sources */,
 				345920D126B126DE00C135BE /* UIImage+Extension.swift in Sources */,
 				345920D426B126DE00C135BE /* CALayer+Extension.swift in Sources */,
@@ -369,13 +365,14 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.1;
 				MODULEMAP_FILE = "Target Support Files/ZSSwitchCollection/ZSSwitchCollection.modulemap";
 				PRODUCT_MODULE_NAME = ZSSwitchCollection;
 				PRODUCT_NAME = ZSSwitchCollection;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -558,13 +555,14 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.1;
 				MODULEMAP_FILE = "Target Support Files/ZSSwitchCollection/ZSSwitchCollection.modulemap";
 				PRODUCT_MODULE_NAME = ZSSwitchCollection;
 				PRODUCT_NAME = ZSSwitchCollection;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
